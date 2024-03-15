@@ -1,0 +1,17 @@
+{
+  "name": "switchboard-gain-template-extension",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "A switchboard template extension",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup src/index.js --format es --file dist/index.js"
+  },
+  "author": "Thomas Dodds",
+  "license": "See license in LICENSE.txt",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "rollup": "^4.9.0"
+  }
+}
